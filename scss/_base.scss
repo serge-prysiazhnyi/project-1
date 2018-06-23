@@ -1,0 +1,55 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+}
+.text-center {text-align: center;}
+h1,h2,h3,h4,h5,h6 {font-family: 'Lato', sans-serif;}
+h1 {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 78px;
+    color: #ffffff;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 44px;
+    color: #506a85;
+}
+h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #506a85;
+}
+h4 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #506a85;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px 0 15px;
+}
+.logo {
+    background-image: url(../img/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+a {color: #506a85;}
+a:hover {color: #00bc9c;}
+.background-blue {background-color: #506a85;}
+.text-blue {color: #506a85;}
+.text-md-blue {color:#73879c;}
+.text-light-blue {color: #a3b1bf;}
+.text-white {color: #ffffff;}
+
+// a {color: $a-color;}
+// a:hover {color: $a-hover-color;}
+// .background-base {background-color: $background-base-color;}
+// .text-base {color: $text-base-color;}
+// .text-md {color:$text-md-color;}
+// .text-light {color: $text-light-color;}
+// .text-white {color: #ffffff;}
+// .btn-color {color: $btn-color;}

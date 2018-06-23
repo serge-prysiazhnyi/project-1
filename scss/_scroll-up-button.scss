@@ -1,0 +1,18 @@
+.btn-scroll-up {
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    background-color: #506a85;
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+ 
+.btn-scroll-up-icon {
+    opacity: 0.65;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%,-50%);
+}

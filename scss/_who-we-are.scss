@@ -1,0 +1,27 @@
+
+
+.who-we-are h3 {
+    position: relative;
+}
+
+.feature {
+    flex-basis: 25%;
+    position: relative;
+}
+
+.feature div {
+    padding-left: 65px;
+}
+
+.who-we-are i {
+    position: absolute;
+    top: 22px;
+    left: -15px;
+    font-size: 55px;
+    color: #00bc9c;
+    padding-left: 10px;
+}
+
+.who-we-are p {
+    font-size: 22px;
+}

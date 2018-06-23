@@ -1,0 +1,98 @@
+
+.latest-works {
+    background-color: #f2f5f7;
+    padding-top: $padding-top-lg; 
+}
+
+.latest-works p {
+    font-size: 22px;
+}
+
+.latest-works-card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -10px;
+}
+
+.card {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    flex-basis: 48%;
+    max-width: 570px;
+    height: auto;
+    margin-left: 10px;
+    background: #ffffff;
+    box-shadow: 1px 1px 1px #e6e9ed;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card > figcaption > p {
+    font-size: 14px;
+}
+
+.latest-works div.flex-container a:nth-child(2) {
+    flex-grow: 1;
+    margin-left: 30px;
+}
+
+.latest-works-carousel {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.slider-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.slick-arrow {
+    z-index: 5;
+}
+
+.slick-next, .slick-prev {
+    top: 110%;
+}
+
+.slick-next {
+    right: 44%;
+}
+
+.slick-prev {
+    left: 43%;
+}
+
+.slick-next.slick-arrow::before {
+    content: '\›';
+    padding: 0px 11px 8px 13px;   
+    font-size: 25px;
+    color: #00bc9c;
+    background-color: #506a85;
+    border-radius: 3px;
+}
+
+.slick-prev.slick-arrow::before {
+    content: '\‹';
+    padding: 0px 13px 8px 11px;
+    font-size: 25px;
+    color: #00bc9c;
+    background-color: #506a85;
+    border-radius: 3px;
+}
+
+.slick-dots {
+    bottom: -37px;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #00bc9c;
+}
+
+.slick-dots li button:before {
+    color: #506a85;
+    font-size: 14px;
+    opacity: 1;
+}

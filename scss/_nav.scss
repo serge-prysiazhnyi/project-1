@@ -1,0 +1,82 @@
+/* On scroll nav */
+
+.nav-wrapper {
+    z-index: 999;
+    transition: all 300ms ease-in-out;
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    height: 77px;
+    background-color: #ffffff;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+/* Top nav */
+
+header i, .navbar-header i {
+    display: inline-block;
+    padding: 10px;
+    width: 30px;
+}
+
+.navbar-header {
+    font-size: 12px;
+    background-color: #f5f7fb;
+    box-shadow: 1px 0px 1px 1px #e6e9ed;
+}
+
+.navbar-header:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.header-contact {
+    float: left;
+    font-style: normal;
+}
+
+.header-contact .fa-envelope {
+    padding-left: 0px;
+}
+
+.header-contact .fa-mobile-alt {
+    padding-left: 26px;
+}
+
+.header .social {
+    float: right;
+    text-align: center;
+}
+
+i[class*='facebook']:hover {
+    color: white;
+    background-color: #4668b3;
+}
+i[class*='google']:hover {
+    color: white;
+    background-color: #de5745;
+}
+i[class*='twitter']:hover {
+    color: white;
+    background-color: #2fbbed;
+}
+i[class*='pinterest']:hover {
+    color: white;
+    background-color: #d94348;
+}
+i[class*='behance']:hover {
+    color: white;
+    background-color: #3079ff;
+}
+i[class*='dribbble']:hover {
+    color: white;
+    background-color: #eb6397;
+}

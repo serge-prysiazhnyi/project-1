@@ -1,0 +1,146 @@
+.carousel {
+    position: relative;
+}
+
+.slides {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel input {display: none;}
+
+#slide1:checked ~ .slides .inner {margin-left:0;}
+#slide2:checked ~ .slides .inner {margin-left:-100%;}
+#slide3:checked ~ .slides .inner {margin-left:-200%;}
+#slide4:checked ~ .slides .inner {margin-left:-300%;}
+#slide5:checked ~ .slides .inner {margin-left:-400%;}
+
+.slides .inner{
+    width: 500%;
+}
+
+.slides .carousel-item{
+    width: 20%;
+    float: left;
+}
+
+.commands {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 60px;
+    opacity: 0;
+}
+
+.commands label {
+    display: none;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: #506a85;
+    border-radius: 3px;
+    opacity: 0.6;
+}
+
+.commands > label:hover {
+    opacity: 1;
+}
+
+.commands > label:hover > span {
+    background-color: #00bc9c;
+}
+
+.active {
+    position: absolute;
+    bottom: -13px;
+    left: 48%;
+    z-index: 5;
+    padding: 3px 5px 3px 5px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    display: inline-block;
+    opacity: 0;
+}
+
+.active label {
+    border-radius: 5px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background:#506a85;
+}
+
+.active label:hover {
+    background:#00bc9c;
+}
+
+#slide1:checked ~ .commands label:nth-child(2), #slide2:checked ~ .commands label:nth-child(3), #slide3:checked ~ .commands label:nth-child(4), #slide4:checked ~ .commands label:nth-child(5), #slide5:checked ~ .commands label:nth-child(1) {
+    float: right;
+    margin: 0 12px 0 0;
+    display: block
+}
+
+#slide1:checked ~ .commands label:nth-child(5), #slide2:checked ~ .commands label:nth-child(1), #slide3:checked ~ .commands label:nth-child(2), #slide4:checked ~ .commands label:nth-child(3), #slide5:checked ~ .commands label:nth-child(4) {
+    float: left;
+    margin: 0 0 0 12px;
+    display: block;
+}
+
+#slide1:checked ~ .active label:nth-child(1), #slide2:checked ~ .active label:nth-child(2), #slide3:checked ~ .active label:nth-child(3), #slide4:checked ~ .active label:nth-child(4), #slide5:checked ~ .active label:nth-child(5) {
+    background: #00bc9c;
+    border-radius: 50%;
+}
+
+.carousel:hover > .active {
+    opacity: 1;
+}
+
+.carousel:hover > .commands {
+    opacity: 1;
+}
+
+.slides .inner {
+    transform: translateZ(0);
+    transition: all .8s cubic-bezier(0.770,0.000,0.175,1.000);
+    transition-timing-function: cubic-bezier(0.770,0.000,0.175,1.000)
+}
+
+.slider {
+    transition: all .5s ease-out;
+}
+
+.commands label {
+    transition: opacity .2s ease-out;
+}
+
+.commands, .commands label, .slides, .active, .active label {
+    transform: translateZ(0);
+    transition: all .5s ease-out;
+}
+
+.chevron {
+    display: block;
+    width: 30px;
+    height: 6px;
+    background-color: #ffffff;
+    transform: translate(25%, 650%);
+}
+
+#slide1:checked ~ .commands label:nth-child(2) .chevron-top, #slide2:checked ~ .commands label:nth-child(3) .chevron-top, #slide3:checked ~ .commands label:nth-child(4) .chevron-top, #slide4:checked ~ .commands label:nth-child(5) .chevron-top, #slide5:checked ~ .commands label:nth-child(1) .chevron-top {
+    transform: translateX(50%) translateY(300%) rotate(45deg);
+
+}
+#slide1:checked ~ .commands label:nth-child(2) .chevron-bottom, #slide2:checked ~ .commands label:nth-child(3) .chevron-bottom, #slide3:checked ~ .commands label:nth-child(4) .chevron-bottom, #slide4:checked ~ .commands label:nth-child(5) .chevron-bottom, #slide5:checked ~ .commands label:nth-child(1) .chevron-bottom {
+    transform: translate(50%, 0) translateY(500%) rotate(-45deg);
+
+}
+
+#slide1:checked ~ .commands label:nth-child(5) .chevron-top, #slide2:checked ~ .commands label:nth-child(1) .chevron-top, #slide3:checked ~ .commands label:nth-child(2) .chevron-top, #slide4:checked ~ .commands label:nth-child(3) .chevron-top, #slide5:checked ~ .commands label:nth-child(4) .chevron-top {
+    transform: translateX(50%) translateY(300%) rotate(-45deg);
+}
+
+#slide1:checked ~ .commands label:nth-child(5) .chevron-bottom, #slide2:checked ~ .commands label:nth-child(1) .chevron-bottom, #slide3:checked ~ .commands label:nth-child(2) .chevron-bottom, #slide4:checked ~ .commands label:nth-child(3) .chevron-bottom, #slide5:checked ~ .commands label:nth-child(4) .chevron-bottom {
+    transform: translate(50%, 0) translateY(500%) rotate(45deg);
+}

@@ -1,0 +1,116 @@
+
+footer {
+    color: #a3b1bf;
+    background-color: #2f4052;
+}
+
+footer section {
+    flex-basis: 22%;
+    height: 215px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+footer h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+footer a {color: #a3b1bf}
+
+footer a:hover {color: #00bc9c;}
+
+footer i {padding: 5px;}
+
+footer div.logo {
+    width: 130px;
+    height: 32px;
+    background-size: cover;
+    filter: brightness(3);
+}
+
+.latest-works-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-content: flex-start;
+}
+
+footer .thumb {
+    flex-basis: 47%;
+}
+
+footer .thumb {
+    padding: 5px;
+    max-width: 125px;
+    height: 85px;
+}
+
+footer .thumb img {
+    max-width: 100%;
+}
+
+footer address {
+    font-style: normal;
+}
+
+footer address p {
+    margin: 0;
+}
+
+.footer-social {
+    display: none;
+}
+
+.subscribe-form {
+    display: flex;
+    align-items: center;
+}
+
+.subscribe-form input {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.15); 
+    color: #a3b1bf;
+    padding: 10px 125px 10px 10px;
+    border-style: none;
+    border-radius: 4px;
+    font-family : inherit;
+    font-size: 14px;
+}
+
+.subscribe-form button {
+    font-size: 13px;
+    margin-left: -115px;
+    cursor: pointer;
+}
+
+.footer-ending {
+    color: #707e8c;
+    background-color: #283645;
+    height: 83px;
+}
+
+.footer-ending a {color: #707e8c;}
+.footer-ending a:hover {color: #00bc9c;}
+
+.footer-ending .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav {
+    margin: 16px 0;
+    font-size: 14px;
+}
+.footer-nav a {
+    padding-left: 5px;
+}
+
+.footer-nav a:nth-child(1):after {content: '•'; margin-left: 5px;}
+.footer-nav a:nth-child(2):after {content: '•'; margin-left: 5px;}
+.footer-nav a:nth-child(3):after {content: '•'; margin-left: 5px;}
+.footer-nav a:nth-child(4):after {content: '•'; margin-left: 5px;}
+.footer-nav a:nth-child(5):after {content: '•'; margin-left: 5px;}

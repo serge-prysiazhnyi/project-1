@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700">  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,900"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules\font-awesome\css\font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar-header">
+        <div class="container">
+            <address class="header-contact">
+                <a href="#"><i class="far fa-envelope"></i><span>info@reen.com</span></a>
+                <i class="fas fa-mobile-alt"></i><span>+00 (123) 456 78 90</span>
+            </address>
+            <nav class="social"> 
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                <a href="#"><i class="fab fa-behance"></i></a>
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+            </nav>
+        </div>
+    </div>
+    <header>
+        <div id="scrollNav" class="nav-wrapper">
+            <input type="checkbox" id="main-nav-btn" name="main-nav-btn" class="main-nav-btn">
+            <label for="main-nav-btn" class="main-nav-btn-label"><i class="fas fa-bars"></i></label>
+            <div class="navbar">
+                <div class="container flex-container navbar-container">
+                    <a class="logo" href="#"></a>
+                    <nav class="main-nav">
+                        <a class="main-nav-link" href="#">Home</a>
+                        <a class="main-nav-link" href="#">Portfolio</a>
+                        <a class="main-nav-link" href="#">Blog</a>
+                        <a class="main-nav-link" href="#">Pages</a>
+                        <a class="main-nav-link" href="#">Features</a>
+                        <div class="dropdown"><a class="main-nav-link" href="#">Mega Menu</a>
+                            <div class="dropdown-content">
+                                <div class="container dropdown-container">
+                                    <div class="dropdown-item dropdown-focus-on">
+                                        <h4>Focus on</h4>
+                                        <img src="img/mega-menu-thumb-1.jpg" alt="">
+                                        <p class="text-md-blue">Consed quodips ameniat empernam que apid cust quas molor eatis numa estio.</p>
+                                        <a href="" class="btn btn-md">View project</a>
+                                    </div>
+                                    <div class="dropdown-item dropdown-special-pages">
+                                        <h4>Special pages</h4>
+                                        <ul>
+                                            <li><a href="">3 Columns Details Grid Portfolio</a></li>
+                                            <li><a href="">Fullscreen Grid Portfolio</a></li>
+                                            <li><a href="">Portfolio Post with Video</a></li>
+                                            <li><a href="">2 Columns Grid Blog with Left Sidebar</a></li>
+                                            <li><a href="">3 Columns Grid Blog without Sidebar</a></li>
+                                            <li><a href="">Blog Post with Right Sidebar</a></li>
+                                            <li><a href="">Side Navigation Page</a></li>
+                                            <li><a href="">About Page II</a></li>
+                                            <li><a href="">Service Page I</a></li>
+                                            <li><a href="">Pricing Page I</a></li>
+                                            <li><a href="">Contact Page I</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown-item dropdown-latest-works">
+                                        <h4>Latest works</h4>
+                                        <div class="dropdown-latest-works-thumbs">
+                                            <a href="" class="dropdown-latest-works-thumb"><img src="img/dropdown-latest-works-thumb-1.jpg" alt=""></a>
+                                            <a href="" class="dropdown-latest-works-thumb"><img src="img/dropdown-latest-works-thumb-2.jpg" alt=""></a>
+                                            <a href="" class="dropdown-latest-works-thumb"><img src="img/dropdown-latest-works-thumb-3.jpg" alt=""></a>
+                                            <a href="" class="dropdown-latest-works-thumb"><img src="img/dropdown-latest-works-thumb-4.jpg" alt=""></a>
+                                            <a href="" class="dropdown-latest-works-thumb"><img src="img/dropdown-latest-works-thumb-5.jpg" alt=""></a>
+                                            <a href="" class="dropdown-latest-works-thumb"><img src="img/dropdown-latest-works-thumb-6.jpg" alt=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown-item dropdown-about-us">
+                                        <h4>About us Voluptat ibusaped molorporro consequ idustibus. Reress</h4>
+                                        <p class="text-md-blue">Voluptat ibusaped molorporro consequ idustibus. Reressi morum ut dolessiti tem nihicid ernatum, coria volore non pro officat ut autem accaborem conet. Omnis peribus qui dolent praeperrum coria.
+                                        </p>
+                                        <p class="text-md-blue">Equam conesti occum dolorest, quae venderes quistius, comnitatur sae dinam nonseculpa cum fugit is verciam.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <a class="main-nav-link" href="#">Contact</a>
+                    </nav>
+                    <div>
+                        <form action="#" class="search">
+                            <input type="text" id="search" name="search" >
+                            <label for="search"><i class="fa fa-search" class="search"></i></label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="carousel">
+                <input checked="checked" type='radio' name='slider' id='slide1'/>
+                <input type='radio' name='slider' id='slide2'/>
+                <input type='radio' name='slider' id='slide3'/>
+                <input type='radio' name='slider' id='slide4'/>
+                <input type='radio' name='slider' id='slide5'/>
+                <div class="slides">
+                    <div class="inner">
+                        <section class="hero-item hero-item-1 flex-center carousel-item">
+                            <div class="container">
+                                <h1>Made for Designers</h1>
+                                <p class="text-light-blue">Create your online portfolio in minutes with the professionally and lovingly designed REEN website template. Customize your site with versatile and easy to use features.</p>
+                                <a href="#" class="btn btn-lg">Get started now</a>
+                                <a class="arrow arrow-prev" href="#target-item-5"></a>
+                                <a class="arrow arrow-next" href="#target-item-2"></a>
+                            </div>
+                        </section>
+                        <section class="hero-item hero-item-2 flex-center carousel-item">
+                            <div class="container">
+                                <h1>Fresh and<br>beautiful design</h1>
+                                <p class="text-white">REEN is designed to showcase your talent and put your work in the forefront.<br>Professionally use of typography and layout that fits your content.</p>
+                                <a href="#" class="btn btn-lg">Get started now</a>
+                                <a class="arrow arrow-prev" href="#target-item-1"></a>
+                                <a class="arrow arrow-next" href="#target-item-3"></a>
+                            </div>
+                        </section>
+                        <section class="hero-item hero-item-3 flex-center carousel-item">
+                            <div class="container">
+                                <h1><span class="hero-header-breaker background-blue">Clean and</span></h1>
+                                <h1><span class="hero-header-breaker background-blue">reusable code</span></h1>
+                                <p class="text-blue">The clean code allows you to easily copy code blocks from content modules and past them in different places or layouts.</p>
+                                <a href="#" class="btn btn-lg">Get started now</a>
+                                <a class="arrow arrow-prev" href="#target-item-2"></a>
+                                <a class="arrow arrow-next" href="#target-item-4"></a>
+                            </div>
+                        </section>
+                        <section class="hero-item hero-item-4 carousel-item">
+                            <div class="container">
+                                <h1><span class="hero-header-breaker background-blue">Just focus on</span></h1>
+                                <h1><span class="hero-header-breaker background-blue">your creativity</span></h1>
+                                <p class="text-white">Take a break from messing around with heavy coding and spend your<br>time brainstorming ideas for your next project.</p>
+                                <a href="#" class="btn btn-lg">Get started now</a>
+                                <a class="arrow arrow-prev" href="#target-item-3"></a>
+                                <a class="arrow arrow-next" href="#target-item-5"></a>
+                            </div>
+                        </section>
+                        <section class="hero-item hero-item-5 carousel-item">
+                            <div class="container">
+                                <h1 class="text-white">Showcase<br>your content</h1>
+                                <p class="text-light-blue">With REEN you have the possibility to create websites for various<br> contents quickly and easily. Now it's up to you!</p>
+                                <a href="#" class="btn btn-lg">Get started now</a>
+                                <a class="arrow arrow-prev" href="#target-item-4"></a>
+                                <a class="arrow arrow-next" href="#target-item-1"></a>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="commands">
+                    <label for='slide1'><span class="chevron chevron-top"></span><span class="chevron chevron-bottom"></span></label>
+                    <label for='slide2'><span class="chevron chevron-top"></span><span class="chevron chevron-bottom"></span></label>
+                    <label for='slide3'><span class="chevron chevron-top"></span><span class="chevron chevron-bottom"></span></label>
+                    <label for='slide4'><span class="chevron chevron-top"></span><span class="chevron chevron-bottom"></span></label>
+                    <label for='slide5'><span class="chevron chevron-top"></span><span class="chevron chevron-bottom"></span></label>
+                </div>
+                <div class="active">
+                    <label for='slide1'></label>
+                    <label for='slide2'></label>
+                    <label for='slide3'></label>
+                    <label for='slide4'></label>
+                    <label for='slide5'></label>
+                </div>
+            </div>
+        </section>
+        <section class="who-we-are">
+            <div class="container">
+                <h2 class="text-center">Beautiful. Clean. Responsive.</h2>
+                <p class="text-center text-md-blue">REEN is a high-quality solution for those who want a beautiful website in no time.<br>It's fully responsive and will adapt itself to any mobile device. iPad, iPhone, Android, it doesn't matter. Your content will always looks its absolute best.</p>
+                <div class="flex-container">
+                    <article class="feature">
+                        <i class="far fa-heart"></i>
+                        <div>
+                            <h3 class="text-center">Passion</h3>
+                            <p class="text-md-blue text-center">Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</p>
+                        </div>
+                    </article >
+                    <article  class="feature">
+                        <i class="far fa-lightbulb"></i>
+                        <div>
+                            <h3 class="text-center">Creativity</h3>
+                            <p class="text-md-blue text-center">Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</p>
+                        </div>
+                    </article>
+                    <article class="feature">
+                        <i class="far fa-star"></i>
+                        <div>
+                            <h3 class="text-center">Quality</h3>
+                            <p class="text-md-blue text-center">Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="latest-works">
+            <div class="container">
+                <h2 class="text-center">Check out our latest works</h2>
+                <p class="text-md-blue text-center">Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor.</p>
+                <div class="latest-works-card-container">
+                    <a href="#">
+                        <figure class="card">
+                            <img src="img/latest-works-item-1.jpg" alt="">
+                            <figcaption class="text-center">
+                                <h4>Grand Motel gets an identity brushup</h4>
+                                <p>Identity</p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <a href="#">
+                        <figure class="card">
+                            <img src="img/latest-works-item-2.jpg" alt="">
+                            <figcaption class="text-center">
+                                <h4>Grand Motel gets an identity brushup</h4>
+                                <p>Identity</p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="latest-works-carousel">
+                    <div class="slider multiple-items">
+                        <div class="slider-item"><a href="#"><img src="img/latest-works-carousel-item1.jpg" alt=""></a></div>
+                        <div class="slider-item"><a href="#"><img src="img/latest-works-carousel-item2.jpg" alt=""></a></div>
+                        <div class="slider-item"><a href="#"><img src="img/latest-works-carousel-item3.jpg" alt=""></a></div>
+                        <div class="slider-item"><a href="#"><img src="img/latest-works-carousel-item4.jpg" alt=""></a></div>
+                        <div class="slider-item"><a href="#"><img src="img/latest-works-carousel-item1.jpg" alt=""></a></div>
+                        <div class="slider-item"><a href="#"><img src="img/latest-works-carousel-item2.jpg" alt=""></a></div>
+                        <div class="slider-item"><a href="#"><img src="img/latest-works-carousel-item3.jpg" alt=""></a></div>
+                        <div class="slider-item"><a href="#"><img src="img/latest-works-carousel-item4.jpg" alt=""></a></div>
+                        <div class="slider-item"><a href="#"><img src="img/latest-works-carousel-item1.jpg" alt=""></a></div>
+                        <div class="slider-item"><a href="#"><img src="img/latest-works-carousel-item2.jpg" alt=""></a></div>
+                        <div class="slider-item"><a href="#"><img src="img/latest-works-carousel-item3.jpg" alt=""></a></div>
+                        <div class="slider-item"><a href="#"><img src="img/latest-works-carousel-item4.jpg" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="get-in-touch text-center">
+            <div class="container">
+                <h2 class="get-in-touch-header">Want to work with us?</h2>
+                <p class="text-md-blue ">Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam.</p>
+                <a href="#" class="btn btn-md">Get in touch</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container flex-container">
+            <section>
+                <h4 class="text-white">Who we are</h4>
+                <a href=""><div class="logo"></div></a>
+                <p class="text-light-blue">Magnis modipsae voloratati andigen daepeditem quiate re porem que aut labor. Laceaque eictemperum quiae sitiorem rest non restibusaes maio es dem tumquam.</p>
+                <a href="#" class="text-light-blue">More about us <i class="fa fa-arrow-right"></i></a>
+            </section>
+            <section>
+                <h4 class="text-white">Latest works</h4>
+                <div class="latest-works-footer">
+                    <a href="#" class="thumb"><img src="img/thumb1.jpg" alt=""></a>
+                    <a href="#" class="thumb"><img src="img/thumb2.jpg" alt=""></a>
+                    <a href="#" class="thumb"><img src="img/thumb3.jpg" alt=""></a>
+                    <a href="#" class="thumb"><img src="img/thumb4.jpg" alt=""></a>
+                </div>
+            </section>
+            <section>
+                <h4 class="text-white">Get in touch</h4>
+                <p>Doloreiur quia commolu ptatemp dolupta oreprerum tibusam eumenis et consent accullignis dentibea autem inisita.</p>
+                <address>
+                    <p><i class="fas fa-map-marker-alt"></i><span>84 Street, City, State 24813</span></p>
+                    <p><i class="fas fa-mobile-alt"></i><span>+00 (123) 456 78 90</span></p>
+                    <a href="#"><i class="far fa-envelope"></i><span>info@reen.com</span></a>
+                </address>
+                <nav class="social footer-social"> 
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#"><i class="fab fa-behance"></i></a>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                </nav>
+            </section>
+            <section>
+                <h4 class="text-white">Free updates</h4>
+                <p>Conecus iure posae volor remped modis aut lor volor accabora incim resto explabo.</p>
+                <form action="/action_page.php" class="subscribe-form">
+                    <input type="email" id="subscribe" name="subscribe" placeholder="Enter your email address">
+                    <button type="submit" class="btn btn-sm">Subscribe</button>
+                </form>
+            </section>
+        </div>
+        <div class="footer-ending">
+            <div class="container">
+                <p>© 2014 REEN. All rights reserved.</p>
+                <nav class="footer-nav">
+                    <a href="#">Home</a>
+                    <a href="#">Portfolio</a>
+                    <a href="#">Blog</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="btn-scroll-up"><i class="fas fa-chevron-up btn-scroll-up-icon"></i></div></a>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="slick/slick.min.js"></script>
+
+<script>
+window.onscroll = function() {myFunction()};
+let scrollNav = document.getElementById("scrollNav");
+let sticky = scrollNav.offsetTop;
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    scrollNav.classList.add("sticky");
+  } else {
+    scrollNav.classList.remove("sticky");
+  }
+} 
+</script>
+
+<script>
+$('.multiple-items').slick({
+      infinite: true,
+      dots: true,
+      slidesToShow: 4,
+      slidesToScroll: 4
+    });
+</script>
+
+</body>
+</html>

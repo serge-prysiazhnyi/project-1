@@ -1,0 +1,56 @@
+.hero {
+    text-align: center;
+}
+
+.hero-header-breaker {
+    padding: 17px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 60px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.hero-item {
+    height: 680px;
+    background-color: #506a85;
+    background-position: center;
+}
+
+.hero-item-1 {
+    background-image: url(../img/item1.jpg);
+    text-align: center;
+}
+
+.hero-item-2 {
+    background-image: url(../img/item2.jpg);
+    text-align: right;
+}
+
+.hero-item-3 {
+    background-image: url(../img/item3.jpg);
+    text-align: left;
+}
+
+.hero-item-4 {
+    background-image: url(../img/item4.jpg);
+    text-align: right;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.hero-item-5 {
+    background-image: url(../img/item5.jpg);
+    text-align: center;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+
+.hero-item-4 > div.container, .hero-item-5 > div.container {
+    padding-top: 25px;
+}
